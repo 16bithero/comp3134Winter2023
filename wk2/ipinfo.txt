@@ -1,0 +1,33 @@
+1. Blue Mountain (www.bluemountain.ca)
+IP: 192.230.74.127
+Geolocation:
+Country: United States of America	
+Region: California	
+City: Redwood City
+
+2. Eddie Bauer (eddiebauer.com)
+IP: 99.84.238.172
+Geolocation:
+Country: United States of America	
+Region: California	
+City: San Francisco
+
+3. Spotify (spotify.com)
+IP: 35.186.224.25
+Geolocation:
+Country: United States of America	
+Region: Missouri	
+City: Kansas City
+
+4. Nanoleaf (nanoleaf.me)
+IP: 104.21.30.115
+Geolocation:
+Country: United States of America	
+Region: California	
+City: San Francisco
+
+5. Uniqlo (uniqlo.com)
+IP: 18.176.122.188
+Country: Japan
+Region: Tokyo	
+City: Tokyo

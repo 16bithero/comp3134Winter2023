@@ -1,0 +1,289 @@
+Domains
+
+1. Hidrate Spark
+Domain Name: HIDRATESPARK.COM
+Registry Domain ID: 1955671630_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.godaddy.com
+Registrar URL: https://www.godaddy.com
+Updated Date: 2022-11-09T06:34:32Z
+Creation Date: 2015-08-27T11:18:45Z
+Registrar Registration Expiration Date: 2023-11-08T06:59:59Z
+Registrar: GoDaddy.com, LLC
+Registrar IANA ID: 146
+Registrar Abuse Contact Email: email@godaddy.com
+Registrar Abuse Contact Phone: +1.4806242505
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Registry Registrant ID: Not Available From Registry
+Registrant Name: Registration Private
+Registrant Organization: Domains By Proxy, LLC
+Registrant Street: DomainsByProxy.com
+Registrant Street: 2155 E Warner Rd
+Registrant City: Tempe
+Registrant State/Province: Arizona
+Registrant Postal Code: 85284
+Registrant Country: US
+Registrant Phone: +1.4806242599
+Registrant Phone Ext:
+Registrant Fax: +1.4806242598
+Registrant Fax Ext:
+Registrant Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=HIDRATESPARK.COM
+Registry Admin ID: Not Available From Registry
+Admin Name: Registration Private
+Admin Organization: Domains By Proxy, LLC
+Admin Street: DomainsByProxy.com
+Admin Street: 2155 E Warner Rd
+Admin City: Tempe
+Admin State/Province: Arizona
+Admin Postal Code: 85284
+Admin Country: US
+Admin Phone: +1.4806242599
+Admin Phone Ext:
+Admin Fax: +1.4806242598
+Admin Fax Ext:
+Admin Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=HIDRATESPARK.COM
+Registry Tech ID: Not Available From Registry
+Tech Name: Registration Private
+Tech Organization: Domains By Proxy, LLC
+Tech Street: DomainsByProxy.com
+Tech Street: 2155 E Warner Rd
+Tech City: Tempe
+Tech State/Province: Arizona
+Tech Postal Code: 85284
+Tech Country: US
+Tech Phone: +1.4806242599
+Tech Phone Ext:
+Tech Fax: +1.4806242598
+Tech Fax Ext:
+Tech Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=HIDRATESPARK.COM
+Name Server: NS45.DOMAINCONTROL.COM
+Name Server: NS46.DOMAINCONTROL.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-20T22:04:30Z <<<
+
+
+2. Casetify
+Domain Name: CASETIFY.COM
+Registry Domain ID: 1836432020_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.godaddy.com
+Registrar URL: https://www.godaddy.com
+Updated Date: 2021-11-10T23:34:53Z
+Creation Date: 2013-11-22T03:34:40Z
+Registrar Registration Expiration Date: 2026-11-22T03:34:40Z
+Registrar: GoDaddy.com, LLC
+Registrar IANA ID: 146
+Registrar Abuse Contact Email: email@godaddy.com
+Registrar Abuse Contact Phone: +1.4806242505
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Registry Registrant ID: Not Available From Registry
+Registrant Name: Registration Private
+Registrant Organization: Domains By Proxy, LLC
+Registrant Street: DomainsByProxy.com
+Registrant Street: 2155 E Warner Rd
+Registrant City: Tempe
+Registrant State/Province: Arizona
+Registrant Postal Code: 85284
+Registrant Country: US
+Registrant Phone: +1.4806242599
+Registrant Phone Ext:
+Registrant Fax: +1.4806242598
+Registrant Fax Ext:
+Registrant Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=CASETIFY.COM
+Registry Admin ID: Not Available From Registry
+Admin Name: Registration Private
+Admin Organization: Domains By Proxy, LLC
+Admin Street: DomainsByProxy.com
+Admin Street: 2155 E Warner Rd
+Admin City: Tempe
+Admin State/Province: Arizona
+Admin Postal Code: 85284
+Admin Country: US
+Admin Phone: +1.4806242599
+Admin Phone Ext:
+Admin Fax: +1.4806242598
+Admin Fax Ext:
+Admin Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=CASETIFY.COM
+Registry Tech ID: Not Available From Registry
+Tech Name: Registration Private
+Tech Organization: Domains By Proxy, LLC
+Tech Street: DomainsByProxy.com
+Tech Street: 2155 E Warner Rd
+Tech City: Tempe
+Tech State/Province: Arizona
+Tech Postal Code: 85284
+Tech Country: US
+Tech Phone: +1.4806242599
+Tech Phone Ext:
+Tech Fax: +1.4806242598
+Tech Fax Ext:
+Tech Email: Select Contact Domain Holder link at https://www.godaddy.com/whois/results.aspx?domain=CASETIFY.COM
+Name Server: NS-46.AWSDNS-05.COM
+Name Server: NS-1249.AWSDNS-28.ORG
+Name Server: NS-1009.AWSDNS-62.NET
+Name Server: NS-1810.AWSDNS-34.CO.UK
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-16T00:34:48Z <<<
+
+3. North Face
+Domain Name: thenorthface.com
+Registry Domain ID: 5123862_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-09-24T09:18:15+0000
+Creation Date: 1995-10-27T04:00:00+0000
+Registrar Registration Expiration Date: 2023-10-26T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Registrant Organization: The North Face Apparel Corp.
+Registrant State/Province: DE
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/thenorthface.com
+Admin Organization: The North Face Apparel Corp.
+Admin State/Province: DE
+Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/thenorthface.com
+Tech Organization: The North Face Apparel Corp.
+Tech State/Province: DE
+Tech Country: US
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/thenorthface.com
+Name Server: a1-250.akam.net
+Name Server: a2-65.akam.net
+Name Server: a13-67.akam.net
+Name Server: a24-64.akam.net
+Name Server: a12-64.akam.net
+Name Server: a5-66.akam.net
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-20T16:33:23+0000 <<<
+
+4. Sephora
+Domain Name: SEPHORA.COM
+Registry Domain ID: 2445562_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.networksolutions.com
+Registrar URL: http://networksolutions.com
+Updated Date: 2022-05-18T16:57:28Z
+Creation Date: 1996-09-24T04:00:00Z
+Registrar Registration Expiration Date: 2031-09-23T04:00:00Z
+Registrar: Network Solutions, LLC
+Registrar IANA ID: 2
+Reseller: 
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: 
+Registrant Name: PERFECT PRIVACY, LLC
+Registrant Organization: 
+Registrant Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Registrant City: Jacksonville
+Registrant State/Province: FL
+Registrant Postal Code: 32256
+Registrant Country: US
+Registrant Phone: +1.5707088622
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: email@networksolutionsprivateregistration.com
+Registry Admin ID: 
+Admin Name: PERFECT PRIVACY, LLC
+Admin Organization: 
+Admin Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Admin City: Jacksonville
+Admin State/Province: FL
+Admin Postal Code: 32256
+Admin Country: US
+Admin Phone: +1.5707088622
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: email@networksolutionsprivateregistration.com
+Registry Tech ID: 
+Tech Name: PERFECT PRIVACY, LLC
+Tech Organization: 
+Tech Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Tech City: Jacksonville
+Tech State/Province: FL
+Tech Postal Code: 32256
+Tech Country: US
+Tech Phone: +1.5707088622
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: email@networksolutionsprivateregistration.com
+Name Server: NS1.P05.DYNECT.NET
+Name Server: NS2.P05.DYNECT.NET
+Name Server: NS3.P05.DYNECT.NET
+Name Server: NS4.P05.DYNECT.NET
+DNSSEC: unsigned
+Registrar Abuse Contact Email: email@web.com
+Registrar Abuse Contact Phone: +1.8777228662
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-19T13:02:47Z <<<
+
+5. Fear of God
+Domain Name: FEAROFGOD.COM
+Registry Domain ID: 5380021_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.networksolutions.com
+Registrar URL: http://networksolutions.com
+Updated Date: 2022-04-17T12:29:46Z
+Creation Date: 1999-04-17T04:00:00Z
+Registrar Registration Expiration Date: 2032-04-17T04:00:00Z
+Registrar: Network Solutions, LLC
+Registrar IANA ID: 2
+Reseller: 
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: 
+Registrant Name: PERFECT PRIVACY, LLC
+Registrant Organization: 
+Registrant Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Registrant City: Jacksonville
+Registrant State/Province: FL
+Registrant Postal Code: 32256
+Registrant Country: US
+Registrant Phone: +1.5707088622
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: email@networksolutionsprivateregistration.com
+Registry Admin ID: 
+Admin Name: PERFECT PRIVACY, LLC
+Admin Organization: 
+Admin Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Admin City: Jacksonville
+Admin State/Province: FL
+Admin Postal Code: 32256
+Admin Country: US
+Admin Phone: +1.5707088622
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: email@networksolutionsprivateregistration.com
+Registry Tech ID: 
+Tech Name: PERFECT PRIVACY, LLC
+Tech Organization: 
+Tech Street: 5335 Gate Parkway care of Network Solutions PO Box 459
+Tech City: Jacksonville
+Tech State/Province: FL
+Tech Postal Code: 32256
+Tech Country: US
+Tech Phone: +1.5707088622
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: email@networksolutionsprivateregistration.com
+Name Server: NS49.WORLDNIC.COM
+Name Server: NS50.WORLDNIC.COM
+DNSSEC: unsigned
+Registrar Abuse Contact Email: email@web.com
+Registrar Abuse Contact Phone: +1.8777228662
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-14T09:49:29Z <<<

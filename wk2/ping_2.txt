@@ -1,0 +1,14 @@
+(base) renzziadorador@Renzzis-MacBook-Pro ~ % ping 159.89.121.107
+PING 159.89.121.107 (159.89.121.107): 56 data bytes
+64 bytes from 159.89.121.107: icmp_seq=0 ttl=58 time=4.987 ms
+64 bytes from 159.89.121.107: icmp_seq=1 ttl=58 time=3.458 ms
+64 bytes from 159.89.121.107: icmp_seq=2 ttl=58 time=3.719 ms
+64 bytes from 159.89.121.107: icmp_seq=3 ttl=58 time=5.295 ms
+64 bytes from 159.89.121.107: icmp_seq=4 ttl=58 time=3.475 ms
+64 bytes from 159.89.121.107: icmp_seq=5 ttl=58 time=5.228 ms
+64 bytes from 159.89.121.107: icmp_seq=6 ttl=58 time=6.614 ms
+64 bytes from 159.89.121.107: icmp_seq=7 ttl=58 time=3.679 ms
+^C
+--- 159.89.121.107 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.458/4.557/6.614/1.076 ms

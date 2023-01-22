@@ -1,0 +1,18 @@
+(base) renzziadorador@Renzzis-MacBook-Pro ~ % traceroute 159.89.121.107
+traceroute to 159.89.121.107 (159.89.121.107), 64 hops max, 52 byte packets
+ 1  mynetwork (192.168.2.1)  4.278 ms  3.600 ms  3.556 ms
+ 2  10.50.44.187 (10.50.44.187)  4.425 ms  4.208 ms  4.429 ms
+ 3  * * *
+ 4  tcore4-toronto63_39.net.bell.ca (64.230.59.204)  20.299 ms  21.469 ms
+    tcore4-toronto12_37.net.bell.ca (64.230.59.200)  17.896 ms
+ 5  * * *
+ 6  bx6-chicagodt_0-6-0-0.net.bell.ca (64.230.79.85)  20.306 ms
+    bx6-chicagodt_0-7-0-0.net.bell.ca (64.230.79.87)  17.423 ms  18.709 ms
+ 7  ae-35.a06.chcgil09.us.bb.gin.ntt.net (128.241.3.9)  22.391 ms  32.726 ms  17.383 ms
+ 8  ae-12.r22.chcgil09.us.bb.gin.ntt.net (129.250.2.23)  26.387 ms  20.976 ms  18.397 ms
+ 9  ae-3.r00.toroon02.ca.bb.gin.ntt.net (129.250.2.47)  30.821 ms  28.953 ms  31.007 ms
+10  ae-2.a00.toroon02.ca.bb.gin.ntt.net (129.250.6.38)  30.740 ms  30.479 ms  31.576 ms
+11  168.143.228.11 (168.143.228.11)  17.669 ms  17.965 ms  17.928 ms
+12  138.197.249.87 (138.197.249.87)  16.296 ms  15.876 ms *
+13  * * *
+14  159.89.121.107 (159.89.121.107)  17.933 ms  27.969 ms  20.353 ms

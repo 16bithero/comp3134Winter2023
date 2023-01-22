@@ -1,0 +1,52 @@
+1. Scan 1000 TCP ports
+
+root@cybersecuritydroplet:~# nmap youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-22 01:22 UTC
+Nmap scan report for youtube.com (74.125.28.91)
+Host is up (0.033s latency).
+Other addresses for youtube.com (not scanned): 74.125.28.136 74.125.28.93 74.125.28.190 2607:f8b0:400c:c03::be 2607:f8b0:400c:c03::5d 2607:f8b0:400c:c03::88 2607:f8b0:400c:c03::5b
+rDNS record for 74.125.28.91: pc-in-f91.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.28 seconds
+
+
+2. Single port scan (reddit.com IP: 151.101.65.140)
+root@cybersecuritydroplet:~# nmap -p 8080 151.101.65.140
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-22 01:25 UTC
+Nmap scan report for 151.101.65.140
+Host is up (0.0025s latency).
+
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.27 seconds
+
+3. Scan a range of ports (digitalocean.com, ports 0-1023)
+root@cybersecuritydroplet:~# nmap -p 0-1023 104.16.182.15
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-22 01:29 UTC
+Nmap scan report for 104.16.182.15
+Host is up (0.0047s latency).
+Not shown: 1022 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.99 seconds
+
+4. Scan top 100 common ports (netflix.com)
+root@cybersecuritydroplet:~# nmap -F netflix.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-22 01:31 UTC
+Nmap scan report for netflix.com (3.211.157.115)
+Host is up (0.022s latency).
+Other addresses for netflix.com (not scanned): 3.225.92.8 54.160.93.182 2600:1f18:631e:2f82:c8cd:27b2:ac:8dbf 2600:1f18:631e:2f84:ceae:e049:1e:6a96 2600:1f18:631e:2f80:77e5:13a7:6533:7584
+rDNS record for 3.211.157.115: ec2-3-211-157-115.compute-1.amazonaws.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.15 seconds

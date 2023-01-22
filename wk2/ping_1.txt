@@ -1,0 +1,34 @@
+Pinging Nanoleaf.me (172.67.172.224)
+
+root@cybersecuritydroplet:~# ping 172.67.172.224 -w 5
+PING 172.67.172.224 (172.67.172.224) 56(84) bytes of data.
+64 bytes from 172.67.172.224: icmp_seq=1 ttl=60 time=2.31 ms
+64 bytes from 172.67.172.224: icmp_seq=2 ttl=60 time=1.34 ms
+64 bytes from 172.67.172.224: icmp_seq=3 ttl=60 time=1.25 ms
+64 bytes from 172.67.172.224: icmp_seq=4 ttl=60 time=1.28 ms
+64 bytes from 172.67.172.224: icmp_seq=5 ttl=60 time=0.918 ms
+
+
+Pinging Apple.com
+
+--- 172.67.172.224 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 0.918/1.419/2.305/0.466 ms
+root@cybersecuritydroplet:~# ping apple.com
+PING apple.com (17.253.144.10) 56(84) bytes of data.
+64 bytes from apple.fr (17.253.144.10): icmp_seq=1 ttl=49 time=26.3 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=2 ttl=49 time=25.6 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=4 ttl=49 time=25.9 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=5 ttl=49 time=26.2 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=7 ttl=49 time=25.5 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=8 ttl=49 time=26.1 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=9 ttl=49 time=26.2 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=10 ttl=49 time=26.2 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=11 ttl=49 time=25.8 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=12 ttl=49 time=26.4 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=13 ttl=49 time=25.9 ms
+64 bytes from apple.fr (17.253.144.10): icmp_seq=14 ttl=49 time=25.3 ms
+^C
+--- apple.com ping statistics ---
+14 packets transmitted, 12 received, 14.2857% packet loss, time 13051ms
+rtt min/avg/max/mdev = 25.287/25.947/26.425/0.324 ms
