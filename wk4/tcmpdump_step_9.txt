@@ -1,0 +1,15 @@
+tcpdump -i en0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:08:07.681636 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [P.], seq 840430822:840430932, ack 1769706291, win 2048, options [nop,nop,TS val 1133112853 ecr 4234129], length 110
+16:08:07.687132 IP 192.168.2.35.8009 > 192.168.2.89.59467: Flags [P.], seq 1:111, ack 110, win 411, options [nop,nop,TS val 4234630 ecr 1133112853], length 110
+16:08:07.687337 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1133112858 ecr 4234630], length 0
+16:08:09.361345 IP 162.247.241.2.https > 192.168.2.89.61619: Flags [.], ack 3677967488, win 8, options [nop,nop,TS val 136756892 ecr 2680349897], length 0
+16:08:09.361653 IP 192.168.2.89.61619 > 162.247.241.2.https: Flags [.], ack 1, win 2048, options [nop,nop,TS val 2680365257 ecr 136634121], length 0
+16:08:09.596505 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [P.], seq 452708657:452708767, ack 2765494542, win 2048, options [nop,nop,TS val 4166220390 ecr 4234320], length 110
+16:08:09.601518 IP 192.168.2.35.8009 > 192.168.2.89.59468: Flags [P.], seq 1:111, ack 110, win 294, options [nop,nop,TS val 4234821 ecr 4166220390], length 110
+16:08:09.601705 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 4166220396 ecr 4234821], length 0
+^C
+8 packets captured
+21 packets received by filter
+0 packets dropped by kernel

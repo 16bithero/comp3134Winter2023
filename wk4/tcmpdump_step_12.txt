@@ -1,0 +1,31 @@
+tcpdump -i en0 dst 192.168.2.89
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:00:24.682027 IP a172-224-90-6.source.akaquill.net.https > 192.168.2.89.53385: quic, protected
+16:00:25.339418 IP 192.168.2.35.8009 > 192.168.2.89.59467: Flags [P.], seq 1769696171:1769696281, ack 840420812, win 411, options [nop,nop,TS val 4188395 ecr 1132650509], length 110
+16:00:26.056883 IP 104.18.6.183.https > 192.168.2.89.59603: Flags [P.], seq 3827635502:3827635527, ack 333820674, win 8, options [nop,nop,TS val 3358433256 ecr 1959863625], length 25
+16:00:26.060150 IP 151.101.126.137.https > 192.168.2.89.61311: Flags [.], ack 2376735083, win 287, options [nop,nop,TS val 2963252610 ecr 3486967504], length 0
+16:00:26.062932 IP 104.18.6.183.https > 192.168.2.89.59603: Flags [.], ack 30, win 8, options [nop,nop,TS val 3358433266 ecr 1959879512], length 0
+16:00:26.307116 IP mynetwork.domain > 192.168.2.89.58310: 22755 NXDomain 0/1/0 (106)
+16:00:26.414335 IP mynetwork.domain > 192.168.2.89.62524: 35067* 1/0/0 PTR mynetwork. (65)
+16:00:26.885131 IP 160.35.184.35.bc.googleusercontent.com.https > 192.168.2.89.61299: Flags [.], ack 1025958523, win 331, options [nop,nop,TS val 3297715549 ecr 854603166], length 0
+16:00:26.938265 IP a172-224-90-6.source.akaquill.net.https > 192.168.2.89.59227: quic, protected
+16:00:26.965267 IP mynetwork.domain > 192.168.2.89.60310: 23958 1/0/0 PTR 160.35.184.35.bc.googleusercontent.com. (96)
+16:00:27.215048 IP 104.18.6.183.https > 192.168.2.89.60199: Flags [.], ack 2445900610, win 8, options [nop,nop,TS val 4164942645 ecr 3034910768], length 0
+16:00:27.215636 IP 104.18.6.183.https > 192.168.2.89.60199: Flags [P.], seq 0:39, ack 1, win 8, options [nop,nop,TS val 4164942645 ecr 3034910768], length 39
+16:00:27.312468 IP 104.18.6.183.https > 192.168.2.89.60199: Flags [P.], seq 39:140, ack 1, win 8, options [nop,nop,TS val 4164942742 ecr 3034910776], length 101
+16:00:27.312471 IP 104.18.6.183.https > 192.168.2.89.60199: Flags [P.], seq 140:171, ack 1, win 8, options [nop,nop,TS val 4164942742 ecr 3034910776], length 31
+16:00:27.326595 IP 113.140.107.34.bc.googleusercontent.com.https > 192.168.2.89.60910: Flags [.], ack 3572031294, win 304, options [nop,nop,TS val 692002466 ecr 224212982], length 0
+16:00:27.346371 IP ec2-35-174-127-31.compute-1.amazonaws.com.https > 192.168.2.89.59550: Flags [P.], seq 1465753055:1465753320, ack 4166555263, win 339, options [nop,nop,TS val 3416081691 ecr 2087706127], length 265
+16:00:27.346374 IP ec2-35-174-127-31.compute-1.amazonaws.com.https > 192.168.2.89.59550: Flags [.], ack 1, win 339, options [nop,nop,TS val 3416081691 ecr 2087706127], length 0
+16:00:27.415205 IP mynetwork.domain > 192.168.2.89.64625: 2418 1/0/0 PTR 113.140.107.34.bc.googleusercontent.com. (98)
+16:00:27.460859 IP mynetwork.domain > 192.168.2.89.55293: 47495 1/4/0 PTR ec2-35-174-127-31.compute-1.amazonaws.com. (232)
+ç16:00:27.847800 IP 192.168.2.35.8009 > 192.168.2.89.59468: Flags [P.], seq 2765484422:2765484532, ack 452698647, win 294, options [nop,nop,TS val 4188646 ecr 4165758641], length 110
+16:00:28.243832 IP 93.81.195.35.bc.googleusercontent.com.https > 192.168.2.89.60721: Flags [.], ack 3133708443, win 501, options [nop,nop,TS val 761678437 ecr 10762741], length 0
+16:00:28.316686 IP mynetwork.domain > 192.168.2.89.53670: 9592 1/0/0 PTR 93.81.195.35.bc.googleusercontent.com. (94)
+16:00:29.268157 IP wv-in-f188.1e100.net.5228 > 192.168.2.89.59611: Flags [.], ack 2141798364, win 285, options [nop,nop,TS val 480971305 ecr 4199450352], length 0
+16:00:29.342148 IP mynetwork.domain > 192.168.2.89.62282: 44925 1/0/0 PTR wv-in-f188.1e100.net. (80)
+^C
+24 packets captured
+55 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,18 @@
+tcpdump -i en0 src 192.168.2.89
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+15:49:11.663958 IP 192.168.2.89.60772 > a23-2-4-58.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1239910920, win 2048, length 0
+15:49:11.664078 IP 192.168.2.89.60768 > a23-43-243-147.deploy.static.akamaitechnologies.com.https: Flags [.], ack 610674250, win 4613, length 0
+15:49:11.664097 IP 192.168.2.89.60767 > a23-43-243-147.deploy.static.akamaitechnologies.com.https: Flags [.], ack 930799329, win 2048, length 0
+15:49:11.664109 IP 192.168.2.89.60764 > a23-4-232-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1213111122, win 2048, length 0
+15:49:11.669084 IP 192.168.2.89.57676 > mynetwork.domain: 55423+ PTR? 58.4.2.23.in-addr.arpa. (40)
+15:49:11.904036 IP 192.168.2.89.61721 > mynetwork.domain: 7063+ PTR? 147.243.43.23.in-addr.arpa. (44)
+15:49:11.922486 IP 192.168.2.89.53373 > mynetwork.domain: 49371+ PTR? 32.232.4.23.in-addr.arpa. (42)
+15:49:12.035934 IP 192.168.2.89.60507 > mynetwork.domain: 38711+ PTR? 1.2.168.192.in-addr.arpa. (42)
+15:49:12.463882 IP 192.168.2.89.60199 > 104.18.6.183.https: Flags [.], ack 2765231650, win 2048, length 0
+15:49:12.488129 IP 192.168.2.89.64686 > mynetwork.domain: 31519+ PTR? 183.6.18.104.in-addr.arpa. (43)
+15:49:13.491001 IP 192.168.2.89.60436 > 194.23.211.130.bc.googleusercontent.com.https: Flags [.], ack 569893401, win 2048, length 0
+^C
+11 packets captured
+28 packets received by filter
+0 packets dropped by kernel

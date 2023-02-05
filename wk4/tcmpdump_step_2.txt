@@ -1,0 +1,11 @@
+tcpdump -c 5 -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:02:57.350996 IP 192.168.2.89.60785 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:02:57.410680 IP 192.168.2.89.57449 > mynetwork.domain: 56964+ PTR? 25.224.186.35.in-addr.arpa. (44)
+16:02:57.421198 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.60785: quic, protected
+16:02:57.421646 IP 192.168.2.89.60785 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:02:57.425181 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.60785: quic, protected
+5 packets captured
+8 packets received by filter
+0 packets dropped by kernel

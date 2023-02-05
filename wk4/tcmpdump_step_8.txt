@@ -1,0 +1,37 @@
+tcpdump -n -i en0 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:07:27.139591 IP 192.168.2.89.4281 > 192.168.2.1.53: 15468+ A? spclient.wg.spotify.com. (41)
+16:07:27.139795 IP 192.168.2.89.21513 > 192.168.2.1.53: 23396+ Type65? spclient.wg.spotify.com. (41)
+16:07:27.154418 IP 192.168.2.1.53 > 192.168.2.89.4281: 15468 2/0/0 CNAME edge-web.dual-gslb.spotify.com., A 35.186.224.25 (90)
+16:07:27.154421 IP 192.168.2.1.53 > 192.168.2.89.21513: 23396 1/1/0 CNAME edge-web.dual-gslb.spotify.com. (139)
+16:07:27.156279 IP 192.168.2.89.64091 > 35.186.224.25.443: quic, initial, dcid 766aa7c6d7c62c9b, token 000e1f13a4c9a93570cfe92dd53df8adad9c7d7e83330694dafaaa2e6627647c94c0e4eef1bc18640b9dcfb9cba9e79e9570e5572009bd2ebd9449f3e6e5e98313a1fd095172, length 1161
+16:07:27.157030 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [P.], seq 4063106015:4063106097, ack 1991514164, win 2048, options [nop,nop,TS val 1640729265 ecr 3967678437], length 82
+16:07:27.157104 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [P.], seq 82:121, ack 1, win 2048, options [nop,nop,TS val 1640729265 ecr 3967678437], length 39
+16:07:27.157126 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [P.], seq 121:239, ack 1, win 2048, options [nop,nop,TS val 1640729265 ecr 3967678437], length 118
+16:07:27.162469 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [P.], seq 1:40, ack 239, win 282, options [nop,nop,TS val 3967697336 ecr 1640729265], length 39
+16:07:27.162472 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [.], ack 239, win 282, options [nop,nop,TS val 3967697336 ecr 1640729265], length 0
+16:07:27.162742 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [.], ack 40, win 2047, options [nop,nop,TS val 1640729271 ecr 3967697336], length 0
+16:07:27.162830 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [.], ack 40, win 2047, options [nop,nop,TS val 1640729271 ecr 3967697336], length 0
+16:07:27.182171 IP 35.186.224.25.443 > 192.168.2.89.64091: quic, initial, scid f66aa7c6d7c62c9b, length 909, handshake, scid f66aa7c6d7c62c9b, length 249, protected
+16:07:27.183561 IP 192.168.2.89.64091 > 35.186.224.25.443: quic, handshake, dcid f66aa7c6d7c62c9b, length 72, protected, dcid f66aa7c6d7c62c9b
+16:07:27.187611 IP 35.186.224.25.443 > 192.168.2.89.64091: quic, protected
+16:07:27.187614 IP 35.186.224.25.443 > 192.168.2.89.64091: quic, protected
+16:07:27.187944 IP 192.168.2.89.64091 > 35.186.224.25.443: quic, protected, dcid f66aa7c6d7c62c9b
+16:07:27.194001 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [P.], seq 40:115, ack 239, win 282, options [nop,nop,TS val 3967697368 ecr 1640729271], length 75
+16:07:27.194004 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [P.], seq 115:934, ack 239, win 282, options [nop,nop,TS val 3967697368 ecr 1640729271], length 819
+16:07:27.194242 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [.], ack 934, win 2034, options [nop,nop,TS val 1640729303 ecr 3967697368], length 0
+16:07:27.194508 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [P.], seq 934:1088, ack 239, win 282, options [nop,nop,TS val 3967697368 ecr 1640729271], length 154
+16:07:27.194510 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [P.], seq 1088:1127, ack 239, win 282, options [nop,nop,TS val 3967697368 ecr 1640729271], length 39
+16:07:27.194552 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [.], ack 1127, win 2044, options [nop,nop,TS val 1640729303 ecr 3967697368], length 0
+16:07:27.196365 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [P.], seq 239:274, ack 1127, win 2048, options [nop,nop,TS val 1640729304 ecr 3967697368], length 35
+16:07:27.196425 IP 192.168.2.89.61615 > 35.186.224.25.443: Flags [P.], seq 274:313, ack 1127, win 2048, options [nop,nop,TS val 1640729304 ecr 3967697368], length 39
+16:07:27.200692 IP 35.186.224.25.443 > 192.168.2.89.61615: Flags [.], ack 313, win 282, options [nop,nop,TS val 3967697374 ecr 1640729304], length 0
+16:07:27.211925 IP 35.186.224.25.443 > 192.168.2.89.64091: quic, protected
+16:07:27.449739 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [P.], seq 840429942:840430052, ack 1769705411, win 2048, options [nop,nop,TS val 1133072621 ecr 4230105], length 110
+16:07:27.456066 IP 192.168.2.35.8009 > 192.168.2.89.59467: Flags [P.], seq 1:111, ack 110, win 411, options [nop,nop,TS val 4230607 ecr 1133072621], length 110
+16:07:27.456306 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1133072628 ecr 4230607], length 0
+^C
+30 packets captured
+32 packets received by filter
+0 packets dropped by kernel

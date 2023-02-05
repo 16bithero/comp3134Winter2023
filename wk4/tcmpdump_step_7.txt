@@ -1,0 +1,84 @@
+tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+16:06:27.121271 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [P.], seq 840428622:840428732, ack 1769704091, win 2048, options [nop,nop,TS val 1133012293 ecr 4224073], length 110
+16:06:27.128891 IP 192.168.2.35.8009 > 192.168.2.89.59467: Flags [P.], seq 1:111, ack 110, win 411, options [nop,nop,TS val 4224574 ecr 1133012293], length 110
+16:06:27.129089 IP 192.168.2.89.59467 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1133012301 ecr 4224574], length 0
+16:06:27.326039 IP 192.168.2.89.59550 > ec2-35-174-127-31.compute-1.amazonaws.com.https: Flags [P.], seq 4166556938:4166557184, ack 1465754763, win 2048, options [nop,nop,TS val 2088066128 ecr 3416404648], length 246
+16:06:27.350408 IP ec2-35-174-127-31.compute-1.amazonaws.com.https > 192.168.2.89.59550: Flags [.], ack 246, win 365, options [nop,nop,TS val 3416441693 ecr 2088066128], length 0
+16:06:27.350411 IP ec2-35-174-127-31.compute-1.amazonaws.com.https > 192.168.2.89.59550: Flags [P.], seq 1:267, ack 246, win 365, options [nop,nop,TS val 3416441693 ecr 2088066128], length 266
+16:06:27.350728 IP 192.168.2.89.59550 > ec2-35-174-127-31.compute-1.amazonaws.com.https: Flags [.], ack 267, win 2043, options [nop,nop,TS val 2088066152 ecr 3416441693], length 0
+16:06:27.384497 IP 192.168.2.89.59227 > a172-224-90-6.source.akaquill.net.https: quic, protected
+16:06:27.388726 IP a172-224-90-6.source.akaquill.net.https > 192.168.2.89.59227: quic, protected
+16:06:27.453635 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 2634810855:2634811439, ack 98836740, win 8, options [nop,nop,TS val 3979583528 ecr 1806718794], length 584
+16:06:27.453911 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 584, win 2060, options [nop,nop,TS val 1806726244 ecr 3979583528], length 0
+16:06:27.462133 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 584:683, ack 1, win 8, options [nop,nop,TS val 3979583536 ecr 1806726244], length 99
+16:06:27.462363 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 683, win 2068, options [nop,nop,TS val 1806726252 ecr 3979583536], length 0
+16:06:27.468567 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 683:897, ack 1, win 8, options [nop,nop,TS val 3979583543 ecr 1806726252], length 214
+16:06:27.468630 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 897, win 2066, options [nop,nop,TS val 1806726259 ecr 3979583543], length 0
+16:06:27.477876 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 897:942, ack 1, win 8, options [nop,nop,TS val 3979583552 ecr 1806726259], length 45
+16:06:27.478115 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 942, win 2068, options [nop,nop,TS val 1806726268 ecr 3979583552], length 0
+16:06:27.483439 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 942:997, ack 1, win 8, options [nop,nop,TS val 3979583558 ecr 1806726268], length 55
+16:06:27.483603 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 997, win 2068, options [nop,nop,TS val 1806726273 ecr 3979583558], length 0
+16:06:27.503402 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 997:1054, ack 1, win 8, options [nop,nop,TS val 3979583578 ecr 1806726273], length 57
+16:06:27.503661 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 1054, win 2068, options [nop,nop,TS val 1806726293 ecr 3979583578], length 0
+16:06:27.514924 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 1054:1103, ack 1, win 8, options [nop,nop,TS val 3979583589 ecr 1806726293], length 49
+16:06:27.514929 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 1103:1148, ack 1, win 8, options [nop,nop,TS val 3979583589 ecr 1806726293], length 45
+16:06:27.515179 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 1148, win 2068, options [nop,nop,TS val 1806726305 ecr 3979583589], length 0
+16:06:27.548858 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 1148:1193, ack 1, win 8, options [nop,nop,TS val 3979583624 ecr 1806726305], length 45
+16:06:27.549153 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 1193, win 2068, options [nop,nop,TS val 1806726339 ecr 3979583624], length 0
+16:06:27.880744 IP 192.168.2.12.35809 > 239.255.255.250.us-cli: UDP, length 542
+16:06:28.187850 IP6 z.local.52006 > renzzis-macbook-pro.local.59482: Flags [.], ack 2951389861, win 2048, length 0
+16:06:28.188187 IP6 renzzis-macbook-pro.local.59482 > z.local.52006: Flags [.], ack 1, win 2048, options [nop,nop,TS val 3075198981 ecr 1279073223], length 0
+16:06:29.112478 IP 192.168.2.37.60079 > 239.255.255.250.ssdp: UDP, length 175
+16:06:29.357044 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [P.], seq 452706457:452706567, ack 2765492342, win 2048, options [nop,nop,TS val 4166120152 ecr 4224296], length 110
+16:06:29.364174 IP 192.168.2.35.8009 > 192.168.2.89.59468: Flags [P.], seq 1:111, ack 110, win 294, options [nop,nop,TS val 4224797 ecr 4166120152], length 110
+16:06:29.364365 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 4166120159 ecr 4224797], length 0
+16:06:29.504876 IP ec2-54-163-83-176.compute-1.amazonaws.com.https > 192.168.2.89.61677: Flags [F.], seq 1130604490, ack 3792697011, win 187, options [nop,nop,TS val 3073101179 ecr 1571063652], length 0
+16:06:29.505161 IP 192.168.2.89.61677 > ec2-54-163-83-176.compute-1.amazonaws.com.https: Flags [.], ack 1, win 2047, options [nop,nop,TS val 1571068655 ecr 3073101179], length 0
+16:06:29.569830 IP 192.168.2.89.61611 > iad23s25-in-f3.1e100.net.https: Flags [.], ack 4114549611, win 2048, length 0
+16:06:29.573661 IP iad23s25-in-f3.1e100.net.https > 192.168.2.89.61611: Flags [.], ack 1, win 269, options [nop,nop,TS val 3253255641 ecr 1192059895], length 0
+16:06:30.134469 IP 192.168.2.37.60079 > 239.255.255.250.ssdp: UDP, length 175
+16:06:30.877761 IP 192.168.2.89.59611 > wv-in-f188.1e100.net.5228: Flags [.], ack 1051424630, win 2048, length 0
+16:06:31.052505 IP wv-in-f188.1e100.net.5228 > 192.168.2.89.59611: Flags [.], ack 1, win 285, options [nop,nop,TS val 481332959 ecr 4199450352], length 0
+16:06:31.099582 IP 192.168.2.89.52920 > mynetwork.domain: 14225+ A? www.notion.so. (31)
+16:06:31.129995 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.212633 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.236811 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.236814 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.240778 IP mynetwork.domain > 192.168.2.89.52920: 14225 2/0/0 A 104.18.7.183, A 104.18.6.183 (63)
+16:06:31.243697 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [S], seq 3746608070, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3127797194 ecr 0,sackOK,eol], length 0
+16:06:31.249587 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [S.], seq 1542219131, ack 3746608071, win 65160, options [mss 1400,sackOK,TS val 1418610667 ecr 3127797194,nop,wscale 13], length 0
+16:06:31.249709 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3127797201 ecr 1418610667], length 0
+16:06:31.250176 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [P.], seq 1:518, ack 1, win 2060, options [nop,nop,TS val 3127797201 ecr 1418610667], length 517
+16:06:31.255644 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], ack 518, win 8, options [nop,nop,TS val 1418610673 ecr 3127797201], length 0
+16:06:31.256516 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [P.], seq 1:204, ack 518, win 8, options [nop,nop,TS val 1418610674 ecr 3127797201], length 203
+16:06:31.256611 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 204, win 2057, options [nop,nop,TS val 3127797207 ecr 1418610674], length 0
+16:06:31.257046 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [P.], seq 518:892, ack 204, win 2057, options [nop,nop,TS val 3127797208 ecr 1418610674], length 374
+16:06:31.261377 IP 192.168.2.89.61606 > yyz10s14-in-f14.1e100.net.https: Flags [.], ack 2842377431, win 2048, length 0
+16:06:31.263226 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.264942 IP yyz10s14-in-f14.1e100.net.https > 192.168.2.89.61606: Flags [.], ack 1, win 851, options [nop,nop,TS val 3783166855 ecr 883152368], length 0
+16:06:31.273405 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.276987 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.370660 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [P.], seq 518:892, ack 204, win 2057, options [nop,nop,TS val 3127797321 ecr 1418610674], length 374
+16:06:31.389387 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.409648 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], ack 892, win 8, options [nop,nop,TS val 1418610721 ecr 3127797208], length 0
+16:06:31.409652 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.409656 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.410506 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.410581 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [P.], seq 1644:1799, ack 892, win 8, options [nop,nop,TS val 1418610773 ecr 3127797208], length 155
+16:06:31.410583 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], seq 204:1644, ack 892, win 8, options [nop,nop,TS val 1418610773 ecr 3127797208], length 1440
+16:06:31.410586 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [F.], seq 1799, ack 892, win 8, options [nop,nop,TS val 1418610773 ecr 3127797208], length 0
+16:06:31.410587 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [F.], seq 1799, ack 892, win 8, options [nop,nop,TS val 1418610786 ecr 3127797208], length 0
+16:06:31.410638 IP 192.168.2.89.56827 > 25.224.186.35.bc.googleusercontent.com.https: quic, protected
+16:06:31.410669 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 204, win 2057, options [nop,nop,TS val 3127797361 ecr 1418610721,nop,nop,sack 1 {1644:1799}], length 0
+16:06:31.410706 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 1799, win 2032, options [nop,nop,TS val 3127797361 ecr 1418610773], length 0
+16:06:31.410751 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 1800, win 2032, options [nop,nop,TS val 3127797361 ecr 1418610773], length 0
+16:06:31.410775 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [.], ack 1800, win 2032, options [nop,nop,TS val 3127797361 ecr 1418610773], length 0
+16:06:31.412245 IP 25.224.186.35.bc.googleusercontent.com.https > 192.168.2.89.56827: quic, protected
+16:06:31.413725 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], ack 892, win 8, options [nop,nop,TS val 1418610831 ecr 3127797321,nop,nop,sack 1 {518:892}], length 0
+16:06:31.417281 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [P.], seq 892:916, ack 1800, win 2048, options [nop,nop,TS val 3127797368 ecr 1418610831], length 24
+16:06:31.421880 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], ack 916, win 8, options [nop,nop,TS val 1418610840 ecr 3127797368], length 0
+16:06:31.424276 IP 192.168.2.89.61700 > 104.18.7.183.https: Flags [F.], seq 916, ack 1800, win 2048, options [nop,nop,TS val 3127797375 ecr 1418610840], length 0
+16:06:31.428972 IP 104.18.7.183.https > 192.168.2.89.61700: Flags [.], ack 917, win 8, options [nop,nop,TS val 1418610847 ecr 3127797375], length 0
+16:06:31.533852 IP 192.168.2.89.61375 > a172-224-90-6.source.akaquill.net.https: quic, protected
+16:06:31.542227 IP a172-224-90-6.source.akaquill.net.https > 192.168.2.89.61375: quic, protected

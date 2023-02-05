@@ -1,0 +1,26 @@
+tcpdump -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:02:18.285799 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [P.], seq 452700957:452701067, ack 2765486842, win 2048, options [nop,nop,TS val 4165869083 ecr 4199189], length 110
+16:02:18.297084 IP 192.168.2.35.8009 > 192.168.2.89.59468: Flags [P.], seq 1:111, ack 110, win 294, options [nop,nop,TS val 4199691 ecr 4165869083], length 110
+16:02:18.297310 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 4165869094 ecr 4199691], length 0
+16:02:18.365642 IP 104.16.182.15.https > 192.168.2.89.60754: Flags [P.], seq 844213225:844213371, ack 3565751030, win 8, options [nop,nop,TS val 1108307966 ecr 50629994], length 146
+16:02:18.366026 IP 192.168.2.89.60754 > 104.16.182.15.https: Flags [.], ack 146, win 2048, options [nop,nop,TS val 50670034 ecr 1108307966], length 0
+16:02:18.367457 IP 192.168.2.89.65149 > mynetwork.domain: 28454+ PTR? 89.2.168.192.in-addr.arpa. (43)
+16:02:18.369861 IP mynetwork.domain > 192.168.2.89.65149: 28454 NXDomain* 0/0/0 (43)
+16:02:18.371732 IP 192.168.2.89.57013 > mynetwork.domain: 50094+ PTR? 35.2.168.192.in-addr.arpa. (43)
+16:02:18.374489 IP mynetwork.domain > 192.168.2.89.57013: 50094 NXDomain* 0/0/0 (43)
+16:02:18.480107 IP 192.168.2.89.63026 > mynetwork.domain: 36193+ PTR? 15.182.16.104.in-addr.arpa. (44)
+16:02:18.541949 IP mynetwork.domain > 192.168.2.89.63026: 36193 NXDomain 0/1/0 (106)
+16:02:18.547078 IP 192.168.2.89.59858 > mynetwork.domain: 40072+ PTR? 1.2.168.192.in-addr.arpa. (42)
+16:02:18.550033 IP mynetwork.domain > 192.168.2.89.59858: 40072* 1/0/0 PTR mynetwork. (65)
+16:02:18.838410 IP 192.168.2.12.35809 > 239.255.255.250.us-cli: UDP, length 542
+16:02:18.856752 IP 192.168.2.89.53114 > mynetwork.domain: 19985+ PTR? 12.2.168.192.in-addr.arpa. (43)
+16:02:18.862419 IP mynetwork.domain > 192.168.2.89.53114: 19985 NXDomain* 0/0/0 (43)
+16:02:18.863997 IP 192.168.2.89.49379 > mynetwork.domain: 2819+ PTR? 250.255.255.239.in-addr.arpa. (46)
+16:02:18.905883 IP mynetwork.domain > 192.168.2.89.49379: 2819 NXDomain 0/1/0 (103)
+^C16:02:18.940605 IP6 z.local.52005 > renzzis-macbook-pro.local.59491: Flags [P.], seq 62505061:62505410, ack 1911311701, win 201, options [nop,nop,TS val 2987771434 ecr 842522998], length 349
+
+19 packets captured
+32 packets received by filter
+0 packets dropped by kernel

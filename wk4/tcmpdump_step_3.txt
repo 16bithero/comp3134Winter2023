@@ -1,0 +1,44 @@
+tcpdump -A -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:03:18.538919 IP 104.16.182.15.https > 192.168.2.89.60754: Flags [P.], seq 844213548:844213694, ack 3565751065, win 8, options [nop,nop,TS val 1108368062 ecr 50684024], length 146
+E.....@.8.B*h......Y...R2Q.,.........X.....
+B.Z...`x............;X.T.m..0G...M.mv..."_B.n..i.55.f(..~8G..2.N.Z.V.....z.......w..f8.Z,.4......E....?...s..=hM.l...c..1....[.(.......z..W.C.?k.........`
+16:03:18.539170 IP 192.168.2.89.60754 > 104.16.182.15.https: Flags [.], ack 146, win 2048, options [nop,nop,TS val 50730206 ecr 1108368062], length 0
+E..4..@.@.Y....Yh....R......2Q......*).....
+....B.Z.
+16:03:18.563534 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [P.], seq 452702277:452702387, ack 2765488162, win 2048, options [nop,nop,TS val 4165929360 ecr 4205217], length 110
+E.....@.@......Y...#.L.I...E...".....`.....
+.O	..@*.....i..........5.....,.6t.NCb.q.....{y.A.V*.Q...kh.....w.'^.i...6:...._v-....;..7w6../..}.!....I..{=6...1..%..
+16:03:18.567018 IP 192.168.2.35.8009 > 192.168.2.89.59468: Flags [P.], seq 1:111, ack 110, win 294, options [nop,nop,TS val 4205718 ecr 4165929360], length 110
+E...?.@.@.uk...#...Y.I.L...".......&.......
+.@,..O	.....iu...sc.&.h
+.9Q.Q....n&.v...i......v.'...,X@....q.....Q..r.k0u(o..$.a*1....{.V..R?..N.9..T.....[_...`...@.
+16:03:18.567178 IP 192.168.2.89.59468 > 192.168.2.35.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 4165929364 ecr 4205718], length 0
+E..4..@.@......Y...#.L.I............A......
+.O	..@,.
+16:03:18.846051 IP 192.168.2.12.35809 > 239.255.255.250.us-cli: UDP, length 542
+EX.:..@..................&.....y.lMZL...!.....!...1............:.&........C..NOTIFY * HTTP/1.1
+x-type: dvr
+x-filter: 4ca27d52-e63c-45e8-995e-c10c52c7915b
+x-lastUserActivity: 2/4/2023 2:39:18 PM
+x-location: http://192.168.2.12:8080/dvrfs/info.xml
+x-device: b350c9c8-8c26-4fd3-9766-323969d9f3b0
+x-debug: http://192.168.2.12:8080
+
+<node count='104756'><activities><schedver dver='3' ver='2919' pendcap='True' /><x/><p15n stamp='08D5A979AD3AC24AF40E83383AB8'/><recordver ver='6130' verid='544648553' size='962072674304' free='370172493824' /><x/></activities></node>
+16:03:19.255605 IP 162.159.134.234.https > 192.168.2.89.61163: Flags [P.], seq 2634747185:2634747290, ack 98836524, win 8, options [nop,nop,TS val 3979395262 ecr 1806536630], length 105
+E.....@.8.T........Y.......1.. ,...........
+.0..k.......dN.T...h.Z%..8.U....(...Q...6+H8......9(bX.pf....C..8
+..(....b....#...N..../.M>T.P-......2y.'...0..j]
+16:03:19.255904 IP 192.168.2.89.61163 > 162.159.134.234.https: Flags [.], ack 105, win 2068, options [nop,nop,TS val 1806538047 ecr 3979395262], length 0
+E..4..@.@.N9...Y.......... ,...............
+k..?.0..
+16:03:19.357435 IP 192.168.2.35.mdns > 224.0.0.251.mdns: 0 SRV (QM)? philips hue - 90cba7._hap._tcp.local. (54)
+E..R..@........#.........>R..............philips hue - 90cba7._hap._tcp.local..!..
+16:03:19.357508 IP6 fe80::4607:bff:fe42:36f9.mdns > ff02::fb.mdns: 0 SRV (QM)? philips hue - 90cba7._hap._tcp.local. (54)
+`....>..........F....B6......................>p..............philips hue - 90cba7._hap._tcp.local..!..
+
+10 packets captured
+61 packets received by filter
+0 packets dropped by kernel
