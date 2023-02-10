@@ -1,0 +1,2 @@
+6. service sshd reload
+7. ssh -p 2222 root@159.89.121.107
